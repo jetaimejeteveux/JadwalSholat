@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    >
+        <EditText
+            android:id="@+id/fragment_form_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="City"
+            android:background="@drawable/bg_input"
+            android:minHeight="48dp"
+            android:paddingLeft="12dp"/>
+
+        <EditText
+            android:id="@+id/fragment_form_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Country"
+            android:background="@drawable/bg_input"
+            android:minHeight="48dp"
+            android:paddingLeft="12dp"/>
+        <EditText
+            android:id="@+id/fragment_form_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Month"
+            android:background="@drawable/bg_input"
+            android:minHeight="48dp"
+            android:paddingLeft="12dp"/>
+        <EditText
+            android:id="@+id/fragment_form_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Year"
+            android:background="@drawable/bg_input"
+            android:minHeight="48dp"
+            android:paddingLeft="12dp"/>
+
+    <Button
+        android:id="@+id/simpleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+        android:text="Save"
+        />
+    <Button
+        android:id="@+id/btnLihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lihat Data"
+        />
+
+</LinearLayout>
